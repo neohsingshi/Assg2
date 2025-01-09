@@ -1,0 +1,43 @@
+.navbar1 {
+    background-color: #333; /* 深灰色背景 */
+    display: flex;
+    justify-content: center; /* 居中对齐 */
+    align-items: center; /* 垂直居中 */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 添加轻微阴影 */
+}
+
+.navbar-nav1 {
+    list-style: none; /* 移除默认列表样式 */
+    display: flex;
+    gap: 50px; /* 菜单项间距 */
+    padding: 0;
+    margin: 0;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-nav1 .nav-item1 {
+    text-align: center;
+}
+
+.navbar-nav1 .nav-link1 {
+    color: #fff; /* 默认文字颜色为白色 */
+    font-size: 1.2rem; /* 字体大小 */
+    text-decoration: none; /* 移除下划线 */
+    transition: all 0.3s ease; /* 动效 */
+}
+
+.navbar-nav1 .nav-link1:hover {
+    color: #a0ff00; /* 悬停时文字变成绿色 */
+    text-decoration: none; /* 保持无下划线 */
+}
+
+.navbar-nav1 .nav-link1.active {
+    color: #a0ff00; /* 激活状态文字为绿色 */
+    font-weight: bold; /* 激活状态加粗 */
+}

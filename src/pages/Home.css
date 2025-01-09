@@ -1,0 +1,232 @@
+.scenic-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .scenic-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 22%;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .scenic-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .scenic-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .scenic-card p {
+    padding: 0 10px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  section{
+    margin-top: 10px;
+  }
+  section >h2{
+    text-align: center;
+  }
+  .div-2{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .food-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .food-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 22%;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .food-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .food-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .food-card p {
+    padding: 0 10px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  .section-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .category {
+    width: 45%;
+    margin-bottom: 40px;
+  }
+  
+  .category-title {
+    text-align: center;
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #444;
+  }
+  
+  .card p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .hotels-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .hotels-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .hotel-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .hotel-item img{
+    height: 200px;
+  }
+  
+  .hotel-image {
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  .hotel-text {
+    margin-left: 20px;
+    flex: 1;
+  }
+  
+  .hotel-title {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .hotel-description {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+  }
+  /* 容器标题样式 */
+.highlights-container h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2em;
+  color: #333;
+}
+
+/* 每个特色内容的整体布局 */
+.highlight-item {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 图片样式 */
+.highlight-item img {
+  width: 40%;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 文字内容样式 */
+.highlight-item .content {
+  width: 60%;
+}
+
+/* 标题样式 */
+.highlight-item .content h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* 描述文字样式 */
+.highlight-item .content p {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+}
